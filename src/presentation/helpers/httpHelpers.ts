@@ -1,5 +1,5 @@
 import { HttpResponse } from "../protocols/http";
-export const bagrequest = (error: Error): HttpResponse => ({
+export const bagRequest = (error: Error): HttpResponse => ({
     statusCode: 400,
     body: error
 })
